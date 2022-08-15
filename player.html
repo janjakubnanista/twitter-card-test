@@ -10,17 +10,24 @@
 
   <title>video player</title>
   <style type="text/css">
+    html, body {
+      margin: 0;
+      background: pink;
+    }
+    
     video {
       width: 100%;
-      max-width: 600px;
-      height: auto;
+      height: 100%;
+      object-fit: contain;
     }
   </style>
 
-  <video controls>
+  <video controls autoplay>
     <source src="/twitter-card-test/assets/example.mp4">
     Your browser does not support video
   </video>
+  
+  <h1>MUNTER TUKAN</h1>
 
 </body>
 
